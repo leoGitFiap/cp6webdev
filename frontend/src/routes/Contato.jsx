@@ -17,7 +17,7 @@ function Contato() {
 
   return (
     <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
-      <h2 className="text-4xl font-extrabold text-center text-primary mb-10">Entre em Contato</h2>
+      <h2 className="text-4xl font-extrabold text-center text-primary mb-10 text-green-500">Entre em Contato</h2>
       <div className="max-w-lg mx-auto bg-white shadow-lg rounded-lg p-8">
         <div className="space-y-6">
           <div>
@@ -59,7 +59,7 @@ function Contato() {
             ></textarea>
           </div>
           <button
-            className="w-full bg-primary text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+            className="w-full bg-primary text-gray-950 px-6 py-3 rounded-lg hover:bg-green-500 hover:scale-105 hover:font-semibold transition"
             onClick={handleSubmit}
           >
             Enviar Mensagem
